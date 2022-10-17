@@ -1,0 +1,17 @@
+Column,Column Name,Column Data
+0,id,Identifier of the row
+1,menopaus,0 = premenopausal; 1 = postmenopausal or age>=55 ; 9 = unknown
+2,agegrp,1 = 35-39; 2 = 40-44; 3 = 45-49; 4 = 50-54; 5 = 55-59; 6 = 60-64; 7 = 65-69; 8 = 70-74; 9 = 75-79; 10 = 80-84
+3,density,BI-RADS breast density codes 1 = Almost entirely fat; 2 = Scattered fibroglandular densities; 3 = Heterogeneously dense; 4 = Extremely dense; 9 = Unknown or different measurement system
+4,race,1 = white; 2 = Asian/Pacific Islander; 3 = black; 4 = Native American; 5 = other/mixed; 9 = unknown
+5,Hispanic,0 = no; 1 = yes; 9 = unknown
+6,bmi,Body mass index: 1 = 10-24.99; 2 = 25-29.99; 3 = 30-34.99; 4 = 35 or more; 9 = unknown
+7,agefirst,Age at first birth: 0 = Age < 30; 1 = Age 30 or greater; 2 = Nulliparous; 9 = unknown
+8,nrelbc,Number of first degree relatives with breast cancer: 0 = zero; 1= one; 2 = 2 or more; 9 = unknown
+9,brstproc,Previous breast procedure: 0 = no; 1 = yes; 9 = unknown
+10,lastmamm,Result of last mammogram before the index mammogram: 0 = negative; 1 = false positive; 9 = unknown
+11,surgmeno,Surgical menopause: 0 = natural; 1 = surgical; 9 = unknown or not menopausal (menopaus=0 or menopaus=9)
+12,hrt,Current hormone therapy: 0 = no; 1 = yes; 9 = unknown or not menopausal (menopaus=0 or menopaus=9)
+13,invasive,Diagnosis of invasive breast cancer within one year of the index screening mammogram: 0 = no; 1 = yes
+14,cancer,Diagnosis of invasive or ductal carcinoma in situ breast cancer within one year of the index screening mammogram: 0 = no; 1 = yes
+15,count,Frequency count of this combination of covariates and outcomes (all variables 1 to 14)
